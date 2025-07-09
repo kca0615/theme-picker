@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export function useSidebar() {
   const [leftSidebarCollapsed, setLeftSidebarCollapsed] = useState(false);
-  const [rightPanelOpen, setRightPanelOpen] = useState(false);
+  const [rightPanelCollapsed, setRightPanelCollapsed] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -25,12 +25,12 @@ export function useSidebar() {
   };
 
   const toggleRightPanel = () => {
-    setRightPanelOpen(!rightPanelOpen);
+    setRightPanelCollapsed(!rightPanelCollapsed);
   };
 
   return {
     leftSidebarCollapsed,
-    rightPanelOpen,
+    rightPanelCollapsed,
     isMobile,
     toggleLeftSidebar,
     toggleRightPanel,

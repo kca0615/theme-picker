@@ -9,7 +9,7 @@ import { useSidebar } from "@/hooks/use-sidebar";
 import { Users, DollarSign, FolderOpen, AlertTriangle } from "lucide-react";
 
 export default function Dashboard() {
-  const { leftSidebarCollapsed, rightPanelOpen, isMobile, toggleLeftSidebar, toggleRightPanel } = useSidebar();
+  const { leftSidebarCollapsed, rightPanelCollapsed, isMobile, toggleLeftSidebar, toggleRightPanel } = useSidebar();
 
   return (
     <div className="flex h-screen overflow-hidden dark">
@@ -89,7 +89,7 @@ export default function Dashboard() {
       </main>
 
       {/* Right Panel */}
-      {rightPanelOpen && <RightPanel open={rightPanelOpen} onClose={toggleRightPanel} />}
+      <RightPanel collapsed={rightPanelCollapsed} onToggle={toggleRightPanel} />
     </div>
   );
 }
