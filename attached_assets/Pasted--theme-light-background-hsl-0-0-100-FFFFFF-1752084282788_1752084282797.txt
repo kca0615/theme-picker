@@ -1,0 +1,159 @@
+{
+  "theme": {
+    "light": {
+      "background": "hsl(0 0% 100%)",                    /* #FFFFFF - Main app background */
+      "foreground": "hsl(0 0% 3.9%)",                    /* #0A0A0A - Primary text color */
+      "card": "hsl(0 0% 100%)",                          /* #FFFFFF - Card backgrounds */
+      "card-foreground": "hsl(0 0% 3.9%)",               /* #0A0A0A - Card text color */
+      "popover": "hsl(0 0% 100%)",                       /* #FFFFFF - Popover/dropdown backgrounds */
+      "popover-foreground": "hsl(0 0% 3.9%)",            /* #0A0A0A - Popover/dropdown text */
+      "primary": "hsl(0 0% 9%)",                         /* #181818 - Primary buttons, active elements */
+      "primary-foreground": "hsl(0 0% 98%)",             /* #FAFAFA - Text on primary elements */
+      "secondary": "hsl(0 0% 96.1%)",                    /* #F5F5F5 - Secondary buttons, inactive tabs */
+      "secondary-foreground": "hsl(0 0% 9%)",            /* #181818 - Text on secondary elements */
+      "muted": "hsl(0 0% 96.1%)",                        /* #F5F5F5 - Muted backgrounds, disabled states */
+      "muted-foreground": "hsl(0 0% 45.1%)",             /* #737373 - Muted text, placeholders */
+      "accent": "hsl(0 0% 96.1%)",                       /* #F5F5F5 - Accent elements, highlights */
+      "accent-foreground": "hsl(0 0% 9%)",               /* #181818 - Text on accent elements */
+      "destructive": "hsl(0 84.2% 60.2%)",               /* #F87171 - Destructive actions, delete buttons */
+      "destructive-foreground": "hsl(0 0% 98%)",         /* #FAFAFA - Text on destructive elements */
+      "border": "hsl(0 0% 89.8%)",                       /* #E5E5E5 - Borders, dividers */
+      "input": "hsl(0 0% 89.8%)",                        /* #E5E5E5 - Input borders */
+      "ring": "hsl(0 0% 3.9%)",                          /* #0A0A0A - Focus rings */
+      "sidebar": {
+        "background": "hsl(0 0% 98%)",                   /* #FAFAFA - Sidebar background */
+        "foreground": "hsl(240 5.3% 26.1%)",             /* #3F4144 - Sidebar text */
+        "primary": "hsl(240 5.9% 10%)",                  /* #18191B - Sidebar active items */
+        "primary-foreground": "hsl(240 4.8% 95.9%)",     /* #F6F7F9 - Text on sidebar active items */
+        "accent": "hsl(240 4.8% 95.9%)",                 /* #F6F7F9 - Sidebar hover states */
+        "accent-foreground": "hsl(240 5.9% 10%)",        /* #18191B - Text on sidebar hover states */
+        "border": "hsl(220 13% 91%)",                    /* #E3E8EF - Sidebar borders */
+        "ring": "hsl(217.2 91.2% 59.8%)"                 /* #2EC6FF - Sidebar focus rings */
+      },
+      "scrollbar": {
+        "thumb": "hsl(201 70% 45%)",                     /* #2293B5 - Scrollbar thumb */
+        "thumb-hover": "hsl(201 70% 35%)",               /* #175B72 - Scrollbar thumb on hover */
+        "track": "hsl(210 40% 96.1%)"                    /* #F3F6FA - Scrollbar track */
+      }
+    },
+    "dark": {
+      "background": "hsl(222.2 84% 4.9%)",               /* #090E1A - Main app background */
+      "foreground": "hsl(210 40% 98%)",                  /* #F7FAFC - Primary text color */
+      "card": "hsl(217.2 32.6% 17.5% / 0.4)",            /* #202734 - Card backgrounds */
+      "card-foreground": "hsl(210 40% 98%)",             /* #F7FAFC - Card text color */
+      "popover": "hsl(222.2 84% 4.9%)",                  /* #090E1A - Popover/dropdown backgrounds */
+      "popover-foreground": "hsl(210 40% 98%)",          /* #F7FAFC - Popover/dropdown text */
+      "primary": "hsl(201 96% 32%)",                     /* #006D8F - Primary buttons, active elements */
+      "primary-foreground": "hsl(210 40% 98%)",          /* #F7FAFC - Text on primary elements */
+      "secondary": "hsl(217.2 32.6% 17.5%)",             /* #202734 - Secondary buttons, inactive tabs */
+      "secondary-foreground": "hsl(210 40% 98%)",        /* #F7FAFC - Text on secondary elements */
+      "muted": "hsl(217.2 32.6% 17.5%)",                 /* #202734 - Muted backgrounds, disabled states */
+      "muted-foreground": "hsl(215 20% 65%)",            /* #94A3B8 - Muted text, placeholders */
+      "accent": "hsl(219 24% 16%)",                      /* #202734 - Accent elements, highlights */
+      "accent-foreground": "hsl(210 40% 98%)",           /* #F8FAFC - Text on accent elements */
+      "destructive": "hsl(0 62.8% 30.6%)",               /* #731A1A - Destructive actions, delete buttons */
+      "destructive-foreground": "hsl(210 40% 98%)",      /* #F7FAFC - Text on destructive elements */
+      "border": "hsl(217.2 32.6% 17.5%)",                /* #202734 - Borders, dividers */
+      "input": "hsl(217.2 32.6% 17.5%)",                 /* #202734 - Input borders */
+      "ring": "hsl(201 96% 32%)",                        /* #006D8F - Focus rings */
+      "color-header": "hsl(210 40% 98%)",                /* #F7FAFC - Header text */
+      "stat-accent": "hsl(1 100% 68%)",                  /* #FF5E5B - Stat highlights, trend indicators */
+      "teal": "hsl(1 47% 21%)",                          /* #5BC9C0 - Teal accents, success indicators */
+      "teal-foreground": "hsl(1 47% 21% / 0.4)",         /* #5BC9C0 - Teal backgrounds */
+      "coral": "hsl(10 84% 62%)",                        /* #F97B62 - Coral accents, warning indicators */
+      "coral-foreground": "hsl(10 84% 62% / 0.4)",       /* #F97B62 - Coral backgrounds */
+      "sidebar": {
+        "background": "hsl(222.2 84% 4.9%)",             /* #090E1A - Sidebar background */
+        "foreground": "hsl(210 40% 98%)",                /* #F7FAFC - Sidebar text */
+        "primary": "hsl(240 5.9% 10%)",                  /* #18191B - Sidebar active items */
+        "primary-foreground": "hsl(210 40% 98%)",        /* #F7FAFC - Text on sidebar active items */
+        "muted": "hsl(217.2 32.6% 17.5% / 0.4)",         /* #202734 - Sidebar muted elements */
+        "muted-foreground": "hsl(201 96% 32%)",          /* #006D8F - Text on sidebar muted elements */
+        "accent": "hsl(219 24% 16%)",                    /* #202734 - Sidebar hover states */
+        "accent-foreground": "hsl(210 40% 98%)",         /* #F8FAFC - Text on sidebar hover states */
+        "border": "hsl(220 13% 91%)",                    /* #E3E8EF - Sidebar borders */
+        "ring": "hsl(217.2 91.2% 59.8%)"                 /* #2EC6FF - Sidebar focus rings */
+      },
+      "scrollbar": {
+        "thumb": "hsl(219 24.39% 16.08%)",               /* #202734 - Scrollbar thumb */
+        "thumb-hover": "hsl(219 24% 20%)",               /* #283042 - Scrollbar thumb on hover */
+        "track": "hsl(222.2 84% 4.9%)"                   /* #090E1A - Scrollbar track */
+      }
+    }
+  },
+  "status": {
+    "light": {
+      "success": "hsl(142 71% 45%)",                     /* #1ED75F - Success states, completed tasks, positive trends */
+      "success-foreground": "hsl(0 0% 100%)",            /* #FFFFFF - Text on success elements */
+      "info": "hsl(207 90% 54%)",                        /* #3B82F6 - Information states, neutral notifications */
+      "info-foreground": "hsl(0 0% 100%)",               /* #FFFFFF - Text on info elements */
+      "warning": "hsl(43 96% 56%)",                      /* #F6C744 - Warning states, caution indicators */
+      "warning-foreground": "hsl(0 0% 10%)",             /* #1A1A1A - Text on warning elements */
+      "error": "hsl(0 84.2% 60.2%)",                     /* #F87171 - Error states, failed tasks */
+      "error-foreground": "hsl(0 0% 98%)",               /* #FAFAFA - Text on error elements */
+      "risk": "hsl(30 100% 52%)",                        /* #FF8400 - Risk indicators, medium priority alerts */
+      "risk-foreground": "hsl(0 0% 100%)",               /* #FFFFFF - Text on risk elements */
+      "risk-soft": "hsl(30 100% 92%)",                   /* #FFEBCC - Soft risk backgrounds, low priority alerts */
+      "low": "hsl(168 72% 53%)",                         /* #00C2C7 - Low risk/priority indicators, health icons */
+      "medium": "hsl(39 100% 50%)",                      /* #FFA500 - Medium risk/priority indicators, health icons */
+      "high": "hsl(1 100% 68%)"                          /* #FF5E5B - High risk/priority indicators, health icons */
+    },
+    "dark": {
+      "success": "hsl(142 71% 35%)",                     /* #18A849 - Success states, completed tasks */
+      "success-foreground": "hsl(0 0% 100%)",            /* #FFFFFF - Text on success elements */
+      "info": "hsl(207 90% 63%)",                        /* #60A5FA - Information states, neutral notifications */
+      "info-foreground": "hsl(0 0% 100%)",               /* #FFFFFF - Text on info elements */
+      "warning": "hsl(43 100% 62%)",                     /* #FFD43B - Warning states, caution indicators */
+      "warning-foreground": "hsl(0 0% 10%)",             /* #1A1A1A - Text on warning elements */
+      "error": "hsl(0 62.8% 48%)",                       /* #DC2626 - Error states, failed tasks */
+      "error-foreground": "hsl(0 0% 100%)",              /* #FFFFFF - Text on error elements */
+      "risk": "hsl(30 100% 60%)",                        /* #FF9933 - Risk indicators, medium priority alerts */
+      "risk-foreground": "hsl(0 0% 10%)",                /* #1A1A1A - Text on risk elements */
+      "risk-soft": "hsl(30 100% 20%)",                   /* #663300 - Soft risk backgrounds, low priority alerts */
+      "low": "hsl(168 72% 53%)",                         /* #00C2C7 - Low risk/priority indicators, health icons */
+      "medium": "hsl(39 100% 50%)",                      /* #FFA500 - Medium risk/priority indicators, health icons */
+      "high": "hsl(1 100% 68%)",                         /* #FF5E5B - High risk/priority indicators, health icons */
+      "success-foreground": "hsl(131 53% 16%)",          /* #166534 - Text/icons on success badges */
+      "success": "hsl(141 85% 92%)",                     /* #DCFCE7 - Success badge backgrounds */
+      "info-foreground": "hsl(182 100% 39%)",            /* #00B8D9 - Text/icons on info badges */
+      "info": "hsl(182 100% 39% / 0.2)",                 /* #00B8D933 - Info badge backgrounds */
+      "warning-foreground": "hsl(39 100% 50%)",          /* #FFA500 - Text/icons on warning badges */
+      "warning": "hsl(39 100% 50% / 0.1)",               /* #FFA50019 - Warning badge backgrounds */
+      "error-foreground": "hsl(1 100% 68%)",             /* #FF5E5B - Text/icons on error badges */
+      "error": "hsl(1 100% 68% / 0.2)",                  /* #FF5E5B33 - Error badge backgrounds */
+      "drift-foreground": "hsl(0 100% 70%)",             /* #FF6666 - Text/icons on drift indicators */
+      "drift": "hsl(0 100% 70% / 0.2)",                  /* #FF666633 - Drift indicator backgrounds */
+      "caution": "hsl(38.82 100% 50%)"                   /* #FFA500 - Caution indicators, medium alerts */
+    }
+  },
+  "ui": {
+    "health-indicators": {
+      "healthy": "hsl(168 72% 53%)",                     /* #00C2C7 - Healthy status icons, good health indicators */
+      "warning": "hsl(39 100% 50%)",                     /* #FFA500 - Warning status icons, moderate health indicators */
+      "critical": "hsl(1 100% 68%)"                      /* #FF5E5B - Critical status icons, poor health indicators */
+    },
+    "strategy-icons": {
+      "active": "hsl(142 71% 45%)",                      /* #1ED75F - Active strategy indicators */
+      "pending": "hsl(43 96% 56%)",                      /* #F6C744 - Pending strategy indicators */
+      "paused": "hsl(215 20% 65%)",                      /* #94A3B8 - Paused strategy indicators */
+      "failed": "hsl(0 84.2% 60.2%)"                     /* #F87171 - Failed strategy indicators */
+    },
+    "badges": {
+      "success": "hsl(141 85% 92%)",                     /* #DCFCE7 - Success badge backgrounds */
+      "success-foreground": "hsl(131 53% 16%)",          /* #166534 - Success badge text/icons */
+      "info": "hsl(182 100% 39% / 0.2)",                 /* #00B8D933 - Info badge backgrounds */
+      "info-foreground": "hsl(182 100% 39%)",            /* #00B8D9 - Info badge text/icons */
+      "warning": "hsl(39 100% 50% / 0.1)",               /* #FFA50019 - Warning badge backgrounds */
+      "warning-foreground": "hsl(39 100% 50%)",          /* #FFA500 - Warning badge text/icons */
+      "error": "hsl(1 100% 68% / 0.2)",                  /* #FF5E5B33 - Error badge backgrounds */
+      "error-foreground": "hsl(1 100% 68%)"              /* #FF5E5B - Error badge text/icons */
+    }
+  },
+  "chart": {
+    "chart-1": "hsl(12 76% 61%)",                        /* #F6A96B - Primary chart color */
+    "chart-2": "hsl(173 58% 39%)",                       /* #229E8E - Secondary chart color */
+    "chart-3": "hsl(197 37% 24%)",                       /* #274B5D - Tertiary chart color */
+    "chart-4": "hsl(43 74% 66%)",                        /* #F6E08D - Quaternary chart color */
+    "chart-5": "hsl(27 87% 67%)"                         /* #FFA14A - Quinary chart color */
+  }
+}
