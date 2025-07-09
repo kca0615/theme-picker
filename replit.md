@@ -7,6 +7,13 @@ This is a full-stack web application built with React, Express, and TypeScript. 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Current Theme: Driftguard - Professional teal/navy with coral accents inspired by kanban and network interfaces.
+
+## Recent Changes
+
+- 2025-07-09: Created new "driftguard" theme based on attached screenshots of kanban board and network visualization interfaces
+- Applied driftguard theme with professional teal primary colors, coral accent buttons, and deep navy backgrounds
+- Updated chart placeholder gradient to use driftguard color palette
 
 ## System Architecture
 

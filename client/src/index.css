@@ -127,6 +127,68 @@
   --chart-5: hsl(340, 75%, 55%);
 }
 
+.driftguard {
+  /* Driftguard theme - Professional teal/navy with coral accents inspired by kanban and network interfaces */
+  --background: hsl(210, 35%, 6%);
+  --foreground: hsl(185, 20%, 96%);
+  --card: hsl(210, 30%, 8%);
+  --card-foreground: hsl(185, 20%, 94%);
+  --popover: hsl(210, 30%, 8%);
+  --popover-foreground: hsl(185, 20%, 94%);
+  --primary: hsl(185, 85%, 50%);
+  --primary-foreground: hsl(210, 35%, 6%);
+  --secondary: hsl(210, 25%, 12%);
+  --secondary-foreground: hsl(185, 20%, 88%);
+  --muted: hsl(210, 25%, 12%);
+  --muted-foreground: hsl(185, 12%, 65%);
+  --accent: hsl(12, 88%, 62%);
+  --accent-foreground: hsl(210, 35%, 6%);
+  --destructive: hsl(0, 75%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(210, 25%, 18%);
+  --input: hsl(210, 25%, 18%);
+  --ring: hsl(185, 85%, 50%);
+  
+  /* Sidebar colors using driftguard palette */
+  --sidebar-background: hsl(210, 35%, 6%);
+  --sidebar-foreground: hsl(185, 20%, 96%);
+  --sidebar-primary: hsl(185, 85%, 50%);
+  --sidebar-primary-foreground: hsl(210, 35%, 6%);
+  --sidebar-accent: hsl(12, 88%, 62%);
+  --sidebar-accent-foreground: hsl(210, 35%, 6%);
+  --sidebar-border: hsl(210, 25%, 18%);
+  --sidebar-ring: hsl(185, 85%, 50%);
+  --sidebar-muted: hsl(210, 25%, 12%);
+  --sidebar-muted-foreground: hsl(185, 12%, 65%);
+  
+  /* Status colors using driftguard theme */
+  --success: hsl(158, 70%, 48%);
+  --success-foreground: hsl(210, 35%, 6%);
+  --info: hsl(185, 85%, 50%);
+  --info-foreground: hsl(210, 35%, 6%);
+  --warning: hsl(45, 88%, 58%);
+  --warning-foreground: hsl(210, 35%, 6%);
+  --error: hsl(0, 75%, 60%);
+  --error-foreground: hsl(210, 35%, 6%);
+  
+  /* Badge colors using driftguard theme */
+  --success-badge: hsl(158, 70%, 15%);
+  --success-badge-foreground: hsl(158, 70%, 48%);
+  --info-badge: hsl(185, 85%, 15%);
+  --info-badge-foreground: hsl(185, 85%, 50%);
+  --warning-badge: hsl(45, 88%, 15%);
+  --warning-badge-foreground: hsl(45, 88%, 58%);
+  --error-badge: hsl(0, 75%, 15%);
+  --error-badge-foreground: hsl(0, 75%, 60%);
+  
+  /* Chart colors using driftguard palette */
+  --chart-1: hsl(185, 85%, 50%);
+  --chart-2: hsl(12, 88%, 62%);
+  --chart-3: hsl(158, 70%, 48%);
+  --chart-4: hsl(280, 65%, 60%);
+  --chart-5: hsl(340, 75%, 55%);
+}
+
 .dark {
   /* Dark theme colors */
   --background: hsl(222.2, 84%, 4.9%);
@@ -208,7 +270,7 @@
   }
   
   .chart-placeholder {
-    background: linear-gradient(135deg, hsl(12, 76%, 61%) 0%, hsl(173, 58%, 39%) 50%, hsl(197, 37%, 24%) 100%);
+    background: linear-gradient(135deg, hsl(185, 85%, 50%) 0%, hsl(12, 88%, 62%) 50%, hsl(158, 70%, 48%) 100%);
     border-radius: 0.75rem;
     height: 200px;
     position: relative;
