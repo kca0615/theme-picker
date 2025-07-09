@@ -1,0 +1,71 @@
+{
+  "light": {
+    "background": "#FFFFFF",        // Main background color
+    "foreground": "#0A0A0A",        // Main text color
+    "card": "#FFFFFF",              // Card background
+    "card-foreground": "#0A0A0A",   // Card text
+    "popover": "#FFFFFF",           // Popover/dropdown background
+    "popover-foreground": "#0A0A0A", // Popover text
+    "primary": "#171717",           // Primary buttons/elements
+    "primary-foreground": "#FAFAFA", // Text on primary elements
+    "secondary": "#F5F5F5",         // Secondary buttons/elements
+    "secondary-foreground": "#171717", // Text on secondary elements
+    "muted": "#F5F5F5",             // Muted/subtle backgrounds
+    "muted-foreground": "#737373",  // Muted/subtle text
+    "accent": "#F5F5F5",            // Accent elements
+    "accent-foreground": "#171717", // Text on accent elements
+    "destructive": "#EF4444",       // Error/delete buttons
+    "destructive-foreground": "#FAFAFA", // Text on destructive elements
+    "border": "#E5E5E5",            // Border color
+    "input": "#E5E5E5",             // Input borders
+    "ring": "#0A0A0A",              // Focus rings
+    "chart-1": "#F87171",           // Chart color 1 (salmon)
+    "chart-2": "#2DD4BF",           // Chart color 2 (teal)
+    "chart-3": "#1E5F74",           // Chart color 3 (dark teal)
+    "chart-4": "#FBB03B",           // Chart color 4 (amber)
+    "chart-5": "#FB923C",           // Chart color 5 (orange)
+    "sidebar-background": "#FAFAFA", // Sidebar background
+    "sidebar-foreground": "#4B5563", // Sidebar text
+    "sidebar-primary": "#1F2937"    // Sidebar highlights
+  },
+  "dark": {
+    "background": "#0A0A0A",        // Main background color
+    "foreground": "#FAFAFA",        // Main text color
+    "card": "#0A0A0A",              // Card background
+    "card-foreground": "#FAFAFA",   // Card text
+    "popover": "#0A0A0A",           // Popover/dropdown background
+    "popover-foreground": "#FAFAFA", // Popover text
+    "primary": "#FAFAFA",           // Primary buttons/elements
+    "primary-foreground": "#171717", // Text on primary elements
+    "secondary": "#262626",         // Secondary buttons/elements
+    "secondary-foreground": "#FAFAFA", // Text on secondary elements
+    "muted": "#262626",             // Muted/subtle backgrounds
+    "muted-foreground": "#A3A3A3",  // Muted/subtle text
+    "accent": "#262626",            // Accent elements
+    "accent-foreground": "#FAFAFA", // Text on accent elements
+    "destructive": "#991B1B",       // Error/delete buttons
+    "destructive-foreground": "#FAFAFA", // Text on destructive elements
+    "border": "#262626",            // Border color
+    "input": "#262626",             // Input borders
+    "ring": "#D4D4D4",              // Focus rings
+    "chart-1": "#3B82F6",           // Chart color 1 (blue)
+    "chart-2": "#22C55E",           // Chart color 2 (green)
+    "chart-3": "#F97316",           // Chart color 3 (orange)
+    "chart-4": "#A855F7",           // Chart color 4 (purple)
+    "chart-5": "#EC4899",           // Chart color 5 (pink)
+    "sidebar-background": "#1F2937", // Sidebar background
+    "sidebar-foreground": "#F5F5F5", // Sidebar text
+    "sidebar-primary": "#3B82F6"    // Sidebar highlights
+  },
+  "ocean": {
+    "deep": "#0A1929",              // Used for text in DriftopsGraph
+    "medium": "#0E2A47",            // Used for muted text in DriftopsGraph
+    "shallow": "#1E5F74",           // Used for grid in DriftopsGraph
+    "teal": "#2DD4BF",              // Used for target lines in DriftopsGraph
+    "foam": "#E0F7FA"               // Used for background in DriftopsGraph
+  },
+  "coral": {
+    "DEFAULT": "#FF7043",           // Used for actual lines in DriftopsGraph
+    "light": "#FFAB91"              // Used for recovery lines in DriftopsGraph
+  }
+}

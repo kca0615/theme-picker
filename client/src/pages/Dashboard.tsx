@@ -12,7 +12,7 @@ export default function Dashboard() {
   const { leftSidebarCollapsed, rightPanelCollapsed, isMobile, toggleLeftSidebar, toggleRightPanel } = useSidebar();
 
   return (
-    <div className="flex h-screen overflow-hidden dark">
+    <div className="flex h-screen overflow-hidden driftline">
       {/* Left Sidebar */}
       <Sidebar
         collapsed={leftSidebarCollapsed}
