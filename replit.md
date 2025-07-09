@@ -39,7 +39,7 @@ Preferred communication style: Simple, everyday language.
 - `client/src/pages/` - Application pages (Dashboard, NotFound)
 - `client/src/components/` - Reusable UI components
 - `client/src/components/ui/` - shadcn/ui component library
-- `client/src/hooks/` - Custom React hooks for sidebar, mobile detection, toasts
+- `client/src/hooks/` - Custom React hooks (useSidebar, useIsMobile, useToast) following camelCase naming
 - `client/src/lib/` - Utilities and query client configuration
 
 ### Backend Structure

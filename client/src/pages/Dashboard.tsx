@@ -5,7 +5,7 @@ import { StatCard } from "@/components/dashboard/StatCard";
 import { ActivityFeed } from "@/components/dashboard/ActivityFeed";
 import { ChartPlaceholder } from "@/components/dashboard/ChartPlaceholder";
 import { ProjectTabs } from "@/components/dashboard/ProjectTabs";
-import { useSidebar } from "@/hooks/use-sidebar";
+import { useSidebar } from "@/hooks/useSidebar";
 import { Users, DollarSign, FolderOpen, AlertTriangle } from "lucide-react";
 
 export default function Dashboard() {
