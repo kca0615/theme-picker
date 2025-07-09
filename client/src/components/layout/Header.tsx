@@ -1,4 +1,4 @@
-import { Search, Bell, Menu } from "lucide-react";
+import { Search, Bell, Menu, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -21,7 +21,10 @@ export function Header({ onMobileSidebarToggle, isMobile }: HeaderProps) {
             <Menu className="w-5 h-5" />
           </Button>
         )}
-        <h1 className="text-xl font-semibold text-sidebar-foreground">Dashboard Overview</h1>
+        <div className="flex items-center space-x-2">
+          <h1 className="text-xl font-semibold text-sidebar-foreground">Dashboard Overview</h1>
+          <TrendingUp className="w-5 h-5 text-success" />
+        </div>
       </div>
 
       <div className="flex items-center space-x-4">

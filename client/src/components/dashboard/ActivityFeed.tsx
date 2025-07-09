@@ -1,16 +1,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CustomBadge } from "@/components/ui/custom-badge";
-import { Check, User, AlertTriangle, X } from "lucide-react";
+import { Check, User, AlertTriangle, X, TrendingUp, TrendingDown, BarChart3 } from "lucide-react";
 
 const activities = [
   {
     id: 1,
-    title: "Project Alpha completed",
+    title: "Revenue increased by 15%",
     time: "2 hours ago",
-    icon: Check,
+    icon: TrendingUp,
     iconColor: "bg-success/10 text-success",
     badgeVariant: "success" as const,
-    badgeText: "Complete",
+    badgeText: "Growth",
   },
   {
     id: 2,
@@ -23,21 +23,30 @@ const activities = [
   },
   {
     id: 3,
-    title: "Server maintenance scheduled",
+    title: "Performance metrics declining",
     time: "6 hours ago",
-    icon: AlertTriangle,
+    icon: TrendingDown,
     iconColor: "bg-warning/10 text-warning",
     badgeVariant: "warning" as const,
-    badgeText: "Scheduled",
+    badgeText: "Alert",
   },
   {
     id: 4,
-    title: "Deployment failed",
+    title: "Analytics report generated",
     time: "8 hours ago",
-    icon: X,
-    iconColor: "bg-error/10 text-error",
-    badgeVariant: "error" as const,
-    badgeText: "Failed",
+    icon: BarChart3,
+    iconColor: "bg-info/10 text-info",
+    badgeVariant: "info" as const,
+    badgeText: "Report",
+  },
+  {
+    id: 5,
+    title: "User engagement up 25%",
+    time: "12 hours ago",
+    icon: TrendingUp,
+    iconColor: "bg-success/10 text-success",
+    badgeVariant: "success" as const,
+    badgeText: "Trending",
   },
 ];
 
