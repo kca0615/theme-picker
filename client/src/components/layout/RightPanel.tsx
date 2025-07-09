@@ -9,16 +9,11 @@ interface RightPanelProps {
 
 export function RightPanel({ open, onClose }: RightPanelProps) {
   return (
-    <aside
-      className={cn(
-        "w-80 bg-card border-l border-border transform transition-transform duration-300 ease-in-out relative z-10",
-        open ? "translate-x-0" : "translate-x-full"
-      )}
-    >
+    <aside className="w-80 bg-card border-l border-border flex-shrink-0 relative z-10">
       {/* Right Panel Toggle Button */}
       <button
         onClick={onClose}
-        className="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors"
+        className="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors z-20"
       >
         <ChevronRight className="w-3 h-3" />
       </button>

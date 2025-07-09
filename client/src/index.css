@@ -133,10 +133,12 @@
 @layer components {
   .sidebar-collapsed {
     width: 4rem;
+    flex-shrink: 0;
   }
   
   .sidebar-expanded {
     width: 16rem;
+    flex-shrink: 0;
   }
   
   .transition-width {

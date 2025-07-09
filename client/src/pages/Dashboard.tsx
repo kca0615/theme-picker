@@ -89,7 +89,7 @@ export default function Dashboard() {
       </main>
 
       {/* Right Panel */}
-      <RightPanel open={rightPanelOpen} onClose={toggleRightPanel} />
+      {rightPanelOpen && <RightPanel open={rightPanelOpen} onClose={toggleRightPanel} />}
     </div>
   );
 }
