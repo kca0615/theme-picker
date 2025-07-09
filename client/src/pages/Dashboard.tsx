@@ -33,7 +33,6 @@ export default function Dashboard() {
         {/* Header */}
         <Header
           onMobileSidebarToggle={toggleLeftSidebar}
-          onRightPanelToggle={toggleRightPanel}
           isMobile={isMobile}
         />
 
