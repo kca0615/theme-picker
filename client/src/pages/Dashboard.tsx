@@ -29,7 +29,7 @@ export default function Dashboard() {
       )}
 
       {/* Main Content Area */}
-      <main className="flex-1 flex flex-col overflow-hidden">
+      <main className="flex-1 flex flex-col overflow-hidden bg-sidebar">
         {/* Header */}
         <Header
           onMobileSidebarToggle={toggleLeftSidebar}
@@ -38,7 +38,7 @@ export default function Dashboard() {
         />
 
         {/* Dashboard Content */}
-        <div className="flex-1 overflow-auto scrollbar-thin">
+        <div className="flex-1 overflow-auto scrollbar-thin bg-sidebar">
           <div className="p-6 space-y-6">
             {/* Stats Cards Row */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

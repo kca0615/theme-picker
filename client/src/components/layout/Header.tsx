@@ -10,7 +10,7 @@ interface HeaderProps {
 
 export function Header({ onMobileSidebarToggle, onRightPanelToggle, isMobile }: HeaderProps) {
   return (
-    <header className="bg-card border-b border-border p-4 flex items-center justify-between">
+    <header className="bg-sidebar border-b border-border p-4 flex items-center justify-between">
       <div className="flex items-center space-x-4">
         {isMobile && (
           <Button
@@ -22,7 +22,7 @@ export function Header({ onMobileSidebarToggle, onRightPanelToggle, isMobile }: 
             <Menu className="w-5 h-5" />
           </Button>
         )}
-        <h1 className="text-xl font-semibold text-foreground">Dashboard Overview</h1>
+        <h1 className="text-xl font-semibold text-sidebar-foreground">Dashboard Overview</h1>
       </div>
 
       <div className="flex items-center space-x-4">
