@@ -53,11 +53,11 @@ export function RightPanel({ collapsed, onToggle }: RightPanelProps) {
                   <Download className="w-4 h-4 mr-2" />
                   Export Data
                 </Button>
-                <Button className="w-full justify-start" variant="secondary">
+                <Button className="w-full justify-start bg-warning text-warning-foreground hover:bg-warning/90">
                   <RefreshCw className="w-4 h-4 mr-2" />
                   Refresh Dashboard
                 </Button>
-                <Button className="w-full justify-start" variant="secondary">
+                <Button className="w-full justify-start bg-error text-error-foreground hover:bg-error/90">
                   <Settings className="w-4 h-4 mr-2" />
                   Settings
                 </Button>

@@ -43,7 +43,7 @@ export function ProjectTabs() {
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg font-semibold">Project Management</CardTitle>
-          <Button>
+          <Button className="bg-warning text-warning-foreground hover:bg-warning/90">
             <Plus className="w-4 h-4 mr-2" />
             New Project
           </Button>
