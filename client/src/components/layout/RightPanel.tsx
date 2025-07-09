@@ -1,4 +1,4 @@
-import { ChevronRight, Download, RefreshCw, Settings, FileText, FileSpreadsheet, Image } from "lucide-react";
+import { ChevronRight, ChevronLeft, Download, RefreshCw, Settings, FileText, FileSpreadsheet, Image } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -13,9 +13,9 @@ export function RightPanel({ open, onClose }: RightPanelProps) {
       {/* Right Panel Toggle Button */}
       <button
         onClick={onClose}
-        className="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors z-20"
+        className="absolute -left-3 top-8 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors z-20"
       >
-        <ChevronRight className="w-3 h-3" />
+        <ChevronLeft className="w-3 h-3" />
       </button>
 
       {/* Right Panel Header */}

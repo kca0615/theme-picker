@@ -90,7 +90,7 @@ export function Sidebar({ collapsed, onToggle, isMobile }: SidebarProps) {
       {/* Sidebar Toggle Button */}
       <button
         onClick={onToggle}
-        className="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors z-10"
+        className="absolute -right-3 top-8 w-6 h-6 bg-card border border-border rounded-full flex items-center justify-center text-foreground hover:bg-accent transition-colors z-10"
       >
         {collapsed ? (
           <ChevronRight className="w-3 h-3" />
