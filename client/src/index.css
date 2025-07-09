@@ -66,65 +66,65 @@
 }
 
 .driftline {
-  /* Driftline theme colors based on ocean/coral palette */
-  --background: hsl(0, 0%, 100%);
-  --foreground: hsl(0, 0%, 4%);
-  --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(0, 0%, 4%);
-  --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(0, 0%, 4%);
-  --primary: hsl(0, 0%, 9%);
-  --primary-foreground: hsl(0, 0%, 98%);
-  --secondary: hsl(0, 0%, 96%);
-  --secondary-foreground: hsl(0, 0%, 9%);
-  --muted: hsl(0, 0%, 96%);
-  --muted-foreground: hsl(0, 0%, 45%);
-  --accent: hsl(0, 0%, 96%);
-  --accent-foreground: hsl(0, 0%, 9%);
-  --destructive: hsl(0, 84%, 60%);
+  /* Driftline theme - Dark ocean/coral palette */
+  --background: hsl(207, 100%, 8%);
+  --foreground: hsl(0, 0%, 98%);
+  --card: hsl(207, 100%, 8%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --popover: hsl(207, 100%, 8%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --primary: hsl(0, 0%, 98%);
+  --primary-foreground: hsl(0, 0%, 9%);
+  --secondary: hsl(0, 0%, 15%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 64%);
+  --accent: hsl(0, 0%, 15%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 63%, 31%);
   --destructive-foreground: hsl(0, 0%, 98%);
-  --border: hsl(0, 0%, 90%);
-  --input: hsl(0, 0%, 90%);
-  --ring: hsl(0, 0%, 4%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 15%);
+  --ring: hsl(0, 0%, 83%);
   
-  /* Sidebar colors using ocean palette */
-  --sidebar-background: hsl(0, 0%, 98%);
-  --sidebar-foreground: hsl(219, 14%, 35%);
-  --sidebar-primary: hsl(197, 64%, 29%);
+  /* Sidebar colors using dark ocean palette */
+  --sidebar-background: hsl(220, 39%, 11%);
+  --sidebar-foreground: hsl(0, 0%, 96%);
+  --sidebar-primary: hsl(221, 83%, 53%);
   --sidebar-primary-foreground: hsl(0, 0%, 98%);
-  --sidebar-accent: hsl(180, 100%, 94%);
-  --sidebar-accent-foreground: hsl(197, 64%, 29%);
-  --sidebar-border: hsl(180, 100%, 94%);
-  --sidebar-ring: hsl(197, 64%, 29%);
-  --sidebar-muted: hsl(180, 100%, 94%);
-  --sidebar-muted-foreground: hsl(219, 14%, 35%);
+  --sidebar-accent: hsl(207, 100%, 8%);
+  --sidebar-accent-foreground: hsl(0, 0%, 98%);
+  --sidebar-border: hsl(0, 0%, 15%);
+  --sidebar-ring: hsl(221, 83%, 53%);
+  --sidebar-muted: hsl(0, 0%, 15%);
+  --sidebar-muted-foreground: hsl(221, 83%, 53%);
   
-  /* Status colors using ocean/coral theme */
-  --success: hsl(170, 77%, 46%);
+  /* Status colors using dark ocean/coral theme */
+  --success: hsl(160, 60%, 45%);
   --success-foreground: hsl(0, 0%, 100%);
-  --info: hsl(197, 64%, 29%);
+  --info: hsl(221, 83%, 53%);
   --info-foreground: hsl(0, 0%, 100%);
-  --warning: hsl(24, 95%, 62%);
-  --warning-foreground: hsl(0, 0%, 10%);
-  --error: hsl(6, 93%, 71%);
-  --error-foreground: hsl(0, 0%, 10%);
+  --warning: hsl(30, 80%, 55%);
+  --warning-foreground: hsl(0, 0%, 100%);
+  --error: hsl(340, 75%, 55%);
+  --error-foreground: hsl(0, 0%, 100%);
   
-  /* Badge colors using ocean/coral theme */
-  --success-badge: hsl(170, 77%, 88%);
-  --success-badge-foreground: hsl(197, 64%, 29%);
-  --info-badge: hsl(197, 64%, 85%);
-  --info-badge-foreground: hsl(197, 64%, 29%);
-  --warning-badge: hsl(24, 95%, 88%);
-  --warning-badge-foreground: hsl(24, 95%, 35%);
-  --error-badge: hsl(6, 93%, 88%);
-  --error-badge-foreground: hsl(6, 93%, 45%);
+  /* Badge colors using dark ocean/coral theme */
+  --success-badge: hsl(160, 60%, 20%);
+  --success-badge-foreground: hsl(160, 60%, 45%);
+  --info-badge: hsl(221, 83%, 20%);
+  --info-badge-foreground: hsl(221, 83%, 53%);
+  --warning-badge: hsl(30, 80%, 20%);
+  --warning-badge-foreground: hsl(30, 80%, 55%);
+  --error-badge: hsl(340, 75%, 20%);
+  --error-badge-foreground: hsl(340, 75%, 55%);
   
-  /* Chart colors using ocean/coral palette */
-  --chart-1: hsl(6, 93%, 71%);
-  --chart-2: hsl(170, 77%, 46%);
-  --chart-3: hsl(197, 64%, 29%);
-  --chart-4: hsl(36, 96%, 59%);
-  --chart-5: hsl(24, 95%, 62%);
+  /* Chart colors using dark ocean/coral palette */
+  --chart-1: hsl(221, 83%, 53%);
+  --chart-2: hsl(160, 60%, 45%);
+  --chart-3: hsl(30, 80%, 55%);
+  --chart-4: hsl(280, 65%, 60%);
+  --chart-5: hsl(340, 75%, 55%);
 }
 
 .dark {
