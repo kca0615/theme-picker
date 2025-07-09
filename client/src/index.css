@@ -69,7 +69,7 @@
   /* Dark theme colors */
   --background: hsl(222.2, 84%, 4.9%);
   --foreground: hsl(210, 40%, 98%);
-  --card: hsl(217.2, 32.6%, 17.5%, 0.4);
+  --card: hsl(217.2, 32.6%, 17.5%);
   --card-foreground: hsl(210, 40%, 98%);
   --popover: hsl(222.2, 84%, 4.9%);
   --popover-foreground: hsl(210, 40%, 98%);
@@ -78,7 +78,7 @@
   --secondary: hsl(217.2, 32.6%, 17.5%);
   --secondary-foreground: hsl(210, 40%, 98%);
   --muted: hsl(217.2, 32.6%, 17.5%);
-  --muted-foreground: hsl(215, 20%, 65%);
+  --muted-foreground: hsl(215, 20%, 75%);
   --accent: hsl(219, 24%, 16%);
   --accent-foreground: hsl(210, 40%, 98%);
   --destructive: hsl(0, 62.8%, 30.6%);
@@ -92,7 +92,7 @@
   --sidebar-foreground: hsl(210, 40%, 98%);
   --sidebar-primary: hsl(240, 5.9%, 10%);
   --sidebar-primary-foreground: hsl(210, 40%, 98%);
-  --sidebar-muted: hsl(217.2, 32.6%, 17.5%, 0.4);
+  --sidebar-muted: hsl(217.2, 32.6%, 17.5%);
   --sidebar-muted-foreground: hsl(201, 96%, 32%);
   --sidebar-accent: hsl(219, 24%, 16%);
   --sidebar-accent-foreground: hsl(210, 40%, 98%);
@@ -110,14 +110,14 @@
   --error-foreground: hsl(0, 0%, 100%);
   
   /* Badge colors */
-  --success-badge: hsl(141, 85%, 92%);
-  --success-badge-foreground: hsl(131, 53%, 16%);
-  --info-badge: hsl(182, 100%, 39%, 0.2);
-  --info-badge-foreground: hsl(182, 100%, 39%);
-  --warning-badge: hsl(39, 100%, 50%, 0.1);
-  --warning-badge-foreground: hsl(39, 100%, 50%);
-  --error-badge: hsl(1, 100%, 68%, 0.2);
-  --error-badge-foreground: hsl(1, 100%, 68%);
+  --success-badge: hsl(142, 71%, 35%);
+  --success-badge-foreground: hsl(0, 0%, 100%);
+  --info-badge: hsl(207, 90%, 63%);
+  --info-badge-foreground: hsl(0, 0%, 100%);
+  --warning-badge: hsl(43, 100%, 62%);
+  --warning-badge-foreground: hsl(0, 0%, 10%);
+  --error-badge: hsl(0, 62.8%, 48%);
+  --error-badge-foreground: hsl(0, 0%, 100%);
 }
 
 @layer base {
