@@ -17,8 +17,18 @@ interface StatCardProps {
 }
 
 export function StatCard({ title, value, icon: Icon, trend, iconColor, badgeVariant }: StatCardProps) {
+  const getBorderColor = (variant: string) => {
+    switch (variant) {
+      case 'success': return 'border-l-4 border-l-success';
+      case 'info': return 'border-l-4 border-l-info';
+      case 'warning': return 'border-l-4 border-l-warning';
+      case 'error': return 'border-l-4 border-l-error';
+      default: return 'border-l-4 border-l-muted';
+    }
+  };
+
   return (
-    <Card className="hover:shadow-lg transition-shadow">
+    <Card className={`hover:shadow-lg transition-shadow ${getBorderColor(badgeVariant)}`}>
       <CardContent className="p-6">
         <div className="flex items-center justify-between">
           <div>

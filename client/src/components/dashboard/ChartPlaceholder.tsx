@@ -4,7 +4,7 @@ import { TrendingUp } from "lucide-react";
 
 export function ChartPlaceholder() {
   return (
-    <Card>
+    <Card className="border-l-4 border-l-success">
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle className="text-lg font-semibold">Analytics Overview</CardTitle>

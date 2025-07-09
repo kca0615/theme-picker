@@ -52,14 +52,25 @@ const activities = [
 
 export function ActivityFeed() {
   return (
-    <Card>
+    <Card className="border-l-4 border-l-info">
       <CardHeader>
         <CardTitle className="text-lg font-semibold">Recent Activity</CardTitle>
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {activities.map((activity) => (
-            <div key={activity.id} className="flex items-center space-x-3">
+          {activities.map((activity) => {
+            const getBorderClass = (variant: string) => {
+              switch (variant) {
+                case 'success': return 'border-l-2 border-l-success pl-3';
+                case 'info': return 'border-l-2 border-l-info pl-3';
+                case 'warning': return 'border-l-2 border-l-warning pl-3';
+                case 'error': return 'border-l-2 border-l-error pl-3';
+                default: return 'border-l-2 border-l-muted pl-3';
+              }
+            };
+            
+            return (
+              <div key={activity.id} className={`flex items-center space-x-3 ${getBorderClass(activity.badgeVariant)}`}>
               <div className={`w-8 h-8 rounded-full flex items-center justify-center ${activity.iconColor}`}>
                 <activity.icon className="w-4 h-4" />
               </div>
@@ -71,7 +82,8 @@ export function ActivityFeed() {
                 {activity.badgeText}
               </CustomBadge>
             </div>
-          ))}
+            );
+          })}
         </div>
       </CardContent>
     </Card>
