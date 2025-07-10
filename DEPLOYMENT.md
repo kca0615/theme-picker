@@ -39,10 +39,13 @@ The `vercel.json` file is already configured to:
 
 ## Netlify Deployment
 
+### Important Note
+The current Netlify configuration is set up for **frontend-only deployment**. The backend API routes are handled by a simple Netlify Function that provides basic functionality.
+
 ### Automatic Deployment
 1. Connect your GitHub repository to Netlify
 2. Netlify will use the configuration from `netlify.toml`
-3. Set your environment variables in the Netlify dashboard
+3. Set your environment variables in the Netlify dashboard (if using database features)
 4. Deploy!
 
 ### Manual Deployment
@@ -54,10 +57,15 @@ netlify deploy --prod --dir=dist/public
 
 ### Configuration
 The `netlify.toml` file is configured to:
-- Build the project using `npm run build`
+- Build only the frontend using `vite build`
 - Serve static files from `dist/public`
-- Route API calls to Netlify Functions
+- Route API calls to Netlify Functions (basic implementation)
 - Handle client-side routing with redirects
+
+### Netlify vs Vercel
+- **Vercel**: Full-stack deployment with complete Express server
+- **Netlify**: Frontend-focused with basic API functions
+- **Recommendation**: Use Vercel for full-stack features, Netlify for static sites
 
 ## Database Setup
 

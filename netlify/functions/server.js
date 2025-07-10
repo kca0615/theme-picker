@@ -1,27 +1,26 @@
+const express = require('express');
 const serverless = require('serverless-http');
 
-// Import your Express app
-// Note: This assumes your built server is available at this path
-// You may need to adjust the path based on your build output
-let app;
+// Create Express app
+const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-try {
-  // Try to import the built server
-  app = require('../../dist/index.js');
-} catch (error) {
-  console.error('Failed to import server:', error);
-  
-  // Fallback: create a simple Express app
-  const express = require('express');
-  app = express();
-  
-  app.get('*', (req, res) => {
-    res.status(500).json({ 
-      error: 'Server not properly built for Netlify deployment',
-      message: 'Please ensure the build process completes successfully'
-    });
-  });
-}
+// Basic API routes for Netlify Functions
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok', message: 'Netlify function is working' });
+});
+
+// Add your API routes here
+// Example:
+// app.get('/api/users', (req, res) => {
+//   res.json({ users: [] });
+// });
+
+// Handle 404 for API routes
+app.use('/api/*', (req, res) => {
+  res.status(404).json({ error: 'API endpoint not found' });
+});
 
 // Export the serverless handler
 module.exports.handler = serverless(app);

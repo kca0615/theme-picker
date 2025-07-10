@@ -1,6 +1,6 @@
 [build]
   publish = "dist/public"
-  command = "npm run build"
+  command = "npm run build:netlify"
 
 [build.environment]
   NODE_ENV = "production"
@@ -18,10 +18,6 @@
 
 [functions]
   directory = "netlify/functions"
-
-# For Netlify Functions, we need to create a serverless function
-# This configuration assumes you'll create a netlify/functions/server.js file
-# that exports your Express app as a serverless function
 
 [dev]
   command = "npm run dev"
