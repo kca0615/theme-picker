@@ -33,9 +33,8 @@ export function ThemePicker({ variant = "dropdown", className }: ThemePickerProp
             size="icon"
             className={`text-sidebar-foreground hover:text-sidebar-primary ${className}`}
           >
-            THEME:
+
             <Palette className="w-5 h-5" />
-            
           </Button>
         </TooltipTrigger>
         <TooltipContent>
@@ -47,7 +46,9 @@ export function ThemePicker({ variant = "dropdown", className }: ThemePickerProp
 
   return (
     <div className={`flex items-center space-x-2 ${className}`}>
-      <Palette className="w-4 h-4 text-muted-foreground" />
+      
+      {/* <Palette className="w-4 h-4 pr-1 text-muted-foreground" /> */}
+      <span className="pl-5">THEME:</span>
       <Select value={theme} onValueChange={setTheme}>
         <SelectTrigger className="w-[180px] h-8 text-sm">
           <SelectValue placeholder="Select theme" />
