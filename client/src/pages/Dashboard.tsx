@@ -92,7 +92,7 @@ export default function Dashboard() {
       <RightPanel collapsed={rightPanelCollapsed} onToggle={toggleRightPanel} />
 
       {/* Theme Debug Component */}
-      <ThemeDebug />
+      {/* <ThemeDebug /> */}
     </div>
   );
 }
