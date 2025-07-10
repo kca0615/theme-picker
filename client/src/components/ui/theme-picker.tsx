@@ -33,7 +33,9 @@ export function ThemePicker({ variant = "dropdown", className }: ThemePickerProp
             size="icon"
             className={`text-sidebar-foreground hover:text-sidebar-primary ${className}`}
           >
+            THEME:
             <Palette className="w-5 h-5" />
+            
           </Button>
         </TooltipTrigger>
         <TooltipContent>
