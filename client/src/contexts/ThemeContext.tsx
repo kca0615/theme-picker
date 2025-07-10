@@ -23,13 +23,13 @@ const THEME_OPTIONS = [
   },
   {
     value: 'driftguard2' as Theme,
-    label: 'Driftguard Ocean',
-    description: 'Dark ocean theme with coral accents'
-  },
-  {
-    value: 'driftguard3' as Theme,
     label: 'Driftguard Pro',
     description: 'Professional teal/navy with coral accents'
+  },  
+  {
+    value: 'driftguard3' as Theme,
+    label: 'Driftguard Ocean',
+    description: 'Dark ocean theme with coral accents'
   }
 ];
 
