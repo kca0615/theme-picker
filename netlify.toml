@@ -1,0 +1,30 @@
+[build]
+  publish = "dist/public"
+  command = "npm run build"
+
+[build.environment]
+  NODE_ENV = "production"
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/server/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[functions]
+  directory = "netlify/functions"
+
+# For Netlify Functions, we need to create a serverless function
+# This configuration assumes you'll create a netlify/functions/server.js file
+# that exports your Express app as a serverless function
+
+[dev]
+  command = "npm run dev"
+  port = 5000
+  targetPort = 5000
+  publish = "dist/public"

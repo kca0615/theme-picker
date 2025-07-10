@@ -1,6 +1,7 @@
 import { Search, Bell, Menu, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { ThemePicker } from "@/components/ui/theme-picker";
 
 interface HeaderProps {
   onMobileSidebarToggle: () => void;
@@ -36,6 +37,8 @@ export function Header({ onMobileSidebarToggle, isMobile }: HeaderProps) {
           />
           <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-muted-foreground" />
         </div>
+
+        <ThemePicker />
 
         <Button variant="ghost" size="icon" className="relative text-sidebar-foreground hover:text-sidebar-primary">
           <Bell className="w-5 h-5" />
