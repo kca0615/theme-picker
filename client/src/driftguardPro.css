@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* default */
 :root {
   /* Light theme colors */
   --background: hsl(0, 0%, 100%);
@@ -65,70 +66,9 @@
   --chart-5: hsl(27, 87%, 67%);
 }
 
-.driftline {
-  /* Driftline theme - Dark ocean/coral palette */
-  --background: hsl(207, 100%, 8%);
-  --foreground: hsl(0, 0%, 98%);
-  --card: hsl(207, 100%, 8%);
-  --card-foreground: hsl(0, 0%, 98%);
-  --popover: hsl(207, 100%, 8%);
-  --popover-foreground: hsl(0, 0%, 98%);
-  --primary: hsl(197, 64%, 29%);
-  --primary-foreground: hsl(0, 0%, 98%);
-  --secondary: hsl(0, 0%, 15%);
-  --secondary-foreground: hsl(0, 0%, 98%);
-  --muted: hsl(0, 0%, 15%);
-  --muted-foreground: hsl(0, 0%, 64%);
-  --accent: hsl(0, 0%, 15%);
-  --accent-foreground: hsl(0, 0%, 98%);
-  --destructive: hsl(0, 63%, 31%);
-  --destructive-foreground: hsl(0, 0%, 98%);
-  --border: hsl(0, 0%, 15%);
-  --input: hsl(0, 0%, 15%);
-  --ring: hsl(0, 0%, 83%);
-  
-  /* Sidebar colors using dark ocean palette */
-  --sidebar-background: hsl(220, 39%, 11%);
-  --sidebar-foreground: hsl(0, 0%, 96%);
-  --sidebar-primary: hsl(221, 83%, 53%);
-  --sidebar-primary-foreground: hsl(0, 0%, 98%);
-  --sidebar-accent: hsl(207, 100%, 8%);
-  --sidebar-accent-foreground: hsl(0, 0%, 98%);
-  --sidebar-border: hsl(0, 0%, 15%);
-  --sidebar-ring: hsl(221, 83%, 53%);
-  --sidebar-muted: hsl(0, 0%, 15%);
-  --sidebar-muted-foreground: hsl(221, 83%, 53%);
-  
-  /* Status colors using dark ocean/coral theme */
-  --success: hsl(160, 60%, 45%);
-  --success-foreground: hsl(0, 0%, 100%);
-  --info: hsl(221, 83%, 53%);
-  --info-foreground: hsl(0, 0%, 100%);
-  --warning: hsl(30, 80%, 55%);
-  --warning-foreground: hsl(0, 0%, 100%);
-  --error: hsl(340, 75%, 55%);
-  --error-foreground: hsl(0, 0%, 100%);
-  
-  /* Badge colors using dark ocean/coral theme */
-  --success-badge: hsl(160, 60%, 20%);
-  --success-badge-foreground: hsl(160, 60%, 45%);
-  --info-badge: hsl(221, 83%, 20%);
-  --info-badge-foreground: hsl(221, 83%, 53%);
-  --warning-badge: hsl(30, 80%, 20%);
-  --warning-badge-foreground: hsl(30, 80%, 55%);
-  --error-badge: hsl(340, 75%, 20%);
-  --error-badge-foreground: hsl(340, 75%, 55%);
-  
-  /* Chart colors using dark ocean/coral palette */
-  --chart-1: hsl(221, 83%, 53%);
-  --chart-2: hsl(160, 60%, 45%);
-  --chart-3: hsl(30, 80%, 55%);
-  --chart-4: hsl(280, 65%, 60%);
-  --chart-5: hsl(340, 75%, 55%);
-}
-
-.driftguard {
-  /* Driftguard theme - Professional teal/navy with coral accents inspired by kanban and network interfaces */
+/* DriftGuard Pro */
+.dark {
+  /* DriftGuard Pro theme - Professional teal/navy with coral accents inspired by kanban and network interfaces */
   --background: hsl(210, 35%, 6%);
   --foreground: hsl(185, 20%, 96%);
   --card: hsl(210, 30%, 8%);
@@ -149,7 +89,7 @@
   --input: hsl(210, 25%, 18%);
   --ring: hsl(185, 85%, 50%);
   
-  /* Sidebar colors using driftguard palette */
+  /* Sidebar colors using driftguard3 palette */
   --sidebar-background: hsl(210, 35%, 6%);
   --sidebar-foreground: hsl(185, 20%, 96%);
   --sidebar-primary: hsl(185, 85%, 50%);
@@ -161,7 +101,7 @@
   --sidebar-muted: hsl(210, 25%, 12%);
   --sidebar-muted-foreground: hsl(185, 12%, 65%);
   
-  /* Status colors using driftguard theme */
+  /* Status colors using driftguard3 theme */
   --success: hsl(158, 70%, 48%);
   --success-foreground: hsl(210, 35%, 6%);
   --info: hsl(185, 85%, 50%);
@@ -171,7 +111,7 @@
   --error: hsl(0, 75%, 60%);
   --error-foreground: hsl(210, 35%, 6%);
   
-  /* Badge colors using driftguard theme */
+  /* Badge colors using driftguard3 theme */
   --success-badge: hsl(158, 70%, 15%);
   --success-badge-foreground: hsl(158, 70%, 48%);
   --info-badge: hsl(185, 85%, 15%);
@@ -181,67 +121,12 @@
   --error-badge: hsl(0, 75%, 15%);
   --error-badge-foreground: hsl(0, 75%, 60%);
   
-  /* Chart colors using driftguard palette */
+  /* Chart colors using driftguard3 palette */
   --chart-1: hsl(185, 85%, 50%);
   --chart-2: hsl(12, 88%, 62%);
   --chart-3: hsl(158, 70%, 48%);
   --chart-4: hsl(280, 65%, 60%);
   --chart-5: hsl(340, 75%, 55%);
-}
-
-.dark {
-  /* Dark theme colors */
-  --background: hsl(222.2, 84%, 4.9%);
-  --foreground: hsl(210, 40%, 98%);
-  --card: hsl(217.2, 32.6%, 20%);
-  --card-foreground: hsl(210, 40%, 98%);
-  --popover: hsl(222.2, 84%, 4.9%);
-  --popover-foreground: hsl(210, 40%, 98%);
-  --primary: hsl(201, 96%, 32%);
-  --primary-foreground: hsl(210, 40%, 98%);
-  --secondary: hsl(217.2, 32.6%, 17.5%);
-  --secondary-foreground: hsl(210, 40%, 98%);
-  --muted: hsl(217.2, 32.6%, 17.5%);
-  --muted-foreground: hsl(215, 20%, 75%);
-  --accent: hsl(219, 24%, 16%);
-  --accent-foreground: hsl(210, 40%, 98%);
-  --destructive: hsl(0, 62.8%, 30.6%);
-  --destructive-foreground: hsl(210, 40%, 98%);
-  --border: hsl(217.2, 32.6%, 17.5%);
-  --input: hsl(217.2, 32.6%, 17.5%);
-  --ring: hsl(201, 96%, 32%);
-  
-  /* Sidebar colors */
-  --sidebar-background: hsl(222.2, 84%, 4.9%);
-  --sidebar-foreground: hsl(210, 40%, 98%);
-  --sidebar-primary: hsl(240, 5.9%, 10%);
-  --sidebar-primary-foreground: hsl(210, 40%, 98%);
-  --sidebar-muted: hsl(217.2, 32.6%, 17.5%);
-  --sidebar-muted-foreground: hsl(201, 96%, 32%);
-  --sidebar-accent: hsl(219, 24%, 16%);
-  --sidebar-accent-foreground: hsl(210, 40%, 98%);
-  --sidebar-border: hsl(220, 13%, 91%);
-  --sidebar-ring: hsl(217.2, 91.2%, 59.8%);
-  
-  /* Status colors */
-  --success: hsl(142, 71%, 35%);
-  --success-foreground: hsl(0, 0%, 100%);
-  --info: hsl(207, 90%, 63%);
-  --info-foreground: hsl(0, 0%, 100%);
-  --warning: hsl(43, 100%, 62%);
-  --warning-foreground: hsl(0, 0%, 10%);
-  --error: hsl(0, 62.8%, 48%);
-  --error-foreground: hsl(0, 0%, 100%);
-  
-  /* Badge colors */
-  --success-badge: hsl(142, 71%, 35%);
-  --success-badge-foreground: hsl(0, 0%, 100%);
-  --info-badge: hsl(207, 90%, 63%);
-  --info-badge-foreground: hsl(0, 0%, 100%);
-  --warning-badge: hsl(43, 100%, 62%);
-  --warning-badge-foreground: hsl(0, 0%, 10%);
-  --error-badge: hsl(0, 62.8%, 48%);
-  --error-badge-foreground: hsl(0, 0%, 100%);
 }
 
 @layer base {
@@ -259,14 +144,25 @@
     width: 4rem;
     flex-shrink: 0;
   }
-  
+
   .sidebar-expanded {
     width: 16rem;
     flex-shrink: 0;
   }
-  
+
   .transition-width {
     transition: width 0.3s ease-in-out;
+  }
+
+  /* Global button hover effect with 20% opacity */
+  button:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  /* Preserve existing hover states for specific button variants */
+  button:hover:not(.no-opacity-hover) {
+    opacity: 0.8;
   }
   
   .chart-placeholder {
